@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AC Electrical (North Wales) — Website & Enquiry Audit</title><style>
+<title>Digital Presence Audit &middot; AC Electrical Contracting &middot; AG1 Consulting</title><style>
 :root{--bg:#0d1117;--panel:#161b22;--ink:#e6edf3;--mut:#9aa7b4;--line:#2a3340;--accent:#2f81f7;
   --good:#3fb950;--bad:#f85149;--gradF:#f85149;--gradD:#e8702a;--gradC:#d29922;--gradB:#3fb950;--gradA:#2ea043;}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -88,253 +88,231 @@ footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;l
 .gdot.now{background:var(--bad)}.gdot.proj{background:var(--good)}
 .gticks{display:flex;justify-content:space-between;margin:66px 4px 0;font-size:11px;letter-spacing:.08em;color:var(--mut);font-weight:700}
 @media(max-width:620px){.gmark .gm-lab{font-size:9px}.gmark .gm-val{font-size:16px}}
+
+/* ---------- injected asset nav ---------- */
+.agnav{position:sticky;top:0;z-index:80;background:rgba(13,17,23,.92);backdrop-filter:saturate(1.5) blur(10px);border-bottom:1px solid var(--line)}
+.agnav .inner{max-width:1080px;margin:0 auto;padding:0 22px;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.agnav a{display:inline-block;padding:12px 14px;font-size:14px;font-weight:600;color:var(--mut);text-decoration:none;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
+.agnav a:hover{color:var(--ink);border-bottom-color:var(--accent)}
+.agnav a.on{color:var(--ink);border-bottom-color:var(--accent)}
+.agnav a.ext{color:var(--accent)}
+.agnav a.ext:hover{color:#fff}
+@media(max-width:560px){.agnav .inner{padding:0 14px}.agnav a{padding:10px 9px;font-size:13px}}
 </style></head><body>
+<nav class="agnav"><div class="inner"><a href="assets.html">All Assets</a><a href="./" class="on">Audit</a><a href="competitors.html">Competitors</a><a href="https://andrei170.github.io/ac-electrical-demo/">Concept Site</a></div></nav>
 <header>
   <div class="wrap">
-    <div class="eyebrow">Website &amp; Enquiry Audit</div>
-    <h1>AC Electrical (North Wales) Ltd &mdash; Llandudno Junction</h1>
-    <div class="sub">Prepared for Alun Edwards &middot; 3 September 2026 &middot; AG1 Consulting</div>
+    <div class="eyebrow">Digital Presence Audit &middot; AC Electrical Contracting Ltd &middot; Northamptonshire</div>
+    <div class="sub">Prepared for Matthew Cawte &middot; 29 September 2026 &middot; AG1 Consulting</div>
+    <h1>You Turned On A Lead System Last Week. Your Website Has No Form, No Phone Link, And Nothing Counting Anything.</h1>
+
+    <div class="hero">
+      <div class="gradecard gc-D">
+        <div class="bigletter bl-D">D</div>
+        <div class="score100">38 / 100</div>
+      </div>
+      <div class="heroread">
+        <h2>Ten to fifteen enquiries a week is a good problem. The site cannot capture one of them or tell you where any of them came from.</h2>
+        <p>We searched the whole homepage. <b>There is no contact form, no click-to-call link, no structured data, no
+        meta description, and no analytics of any kind</b> &mdash; no Google Analytics, no Tag Manager, no pixel.</p>
+        <p><b>That matters most right now, not eventually.</b> In a month you will decide whether that lead system is
+        worth keeping, and you will have to decide it on memory.</p>
+        <div class="tag">Good content &bull; No capture &bull; No measurement &bull; Judging a new system blind</div>
+      </div>
+    </div>
   </div>
 </header>
 
-<div class="wrap">
-  <div class="hero">
-    <div class="gradecard gc-C">
-      <div class="bigletter bl-C">C&minus;</div>
-      <div class="score100">48 / 100</div>
-    </div>
-    <div class="heroread">
-      <h2>Twelve services, one page, and nothing measuring any of it.</h2>
-      <p><b>EV charging, fire alarms, CCTV, access control, thermal imaging, smart homes, HVAC</b>
-      &mdash; twelve distinct services, several of them high-value commercial work people search for by
-      name. <b>They are a bullet list on a single page.</b> And there is no analytics, no advertising tag
-      and no call tracking anywhere on the site.</p>
-      <span class="tag">Llandudno Junction &middot; residential, commercial &amp; industrial &middot; since 2016</span>
+<section>
+  <div class="wrap">
+    <div class="h">The Scorecard</div>
+    <div class="sheet">
+      <div class="row"><div><div class="rname">Enquiry form</div><div class="sc">None on the homepage at all</div></div><div class="badge gF">F</div></div>
+      <div class="row"><div><div class="rname">Click-to-call</div><div class="sc">No tel: link anywhere on the page</div></div><div class="badge gF">F</div></div>
+      <div class="row"><div><div class="rname">Analytics</div><div class="sc">Nothing. No GA4, no Tag Manager, no pixel, no conversion tag</div></div><div class="badge gF">F</div></div>
+      <div class="row"><div><div class="rname">Structured data</div><div class="sc">None &mdash; all four competitors publish it</div></div><div class="badge gF">F</div></div>
+      <div class="row"><div><div class="rname">Meta description</div><div class="sc">Absent. The only site of the five without one</div></div><div class="badge gF">F</div></div>
+      <div class="row"><div><div class="rname">Title length</div><div class="sc">102 characters &mdash; cut off in results, and claims &ldquo;best&rdquo;</div></div><div class="badge gD">D</div></div>
+      <div class="row"><div><div class="rname">Duplicate pages</div><div class="sc">The same LED article published three times at -2, -2-2, -2-2-2</div></div><div class="badge gD">D</div></div>
+      <div class="row"><div><div class="rname">Solar positioning</div><div class="sc">A /solar page exists but nothing on it can take an enquiry</div></div><div class="badge gD">D</div></div>
+      <div class="row"><div><div class="rname">Homepage depth</div><div class="sc">997 words &mdash; mid-field, ahead of two competitors</div></div><div class="badge gC">C</div></div>
+      <div class="row"><div><div class="rname">Heading structure</div><div class="sc">8 H2s &mdash; joint most in the comparison</div></div><div class="badge gB">B</div></div>
+      <div class="row"><div><div class="rname">Canonical tag</div><div class="sc">Present and correct</div></div><div class="badge gB">B</div></div>
+      <div class="row"><div><div class="rname">Commercial positioning</div><div class="sc">Commercial and industrial stated clearly in the title</div></div><div class="badge gB">B</div></div>
     </div>
   </div>
+</section>
 
-  <section>
-    <div class="h">Finding 1 &mdash; Your Best Services Are A Bullet Point</div>
+<section>
+  <div class="wrap">
+    <div class="h">Finding 1 &mdash; The Timing Is The Problem</div>
+    <div class="code">
+  WHAT YOU TURNED ON        a lead system, last week
+  WHAT IT IS PRODUCING      10-15 enquiries a week
+  YOUR AVERAGE JOB          <span class="ok">GBP 5,000 to GBP 20,000</span>
+
+  WHAT YOUR WEBSITE CAN RECORD ABOUT ANY OF IT
+
+  Contact form              <span class="ph">none</span>
+  Click-to-call link        <span class="ph">none</span>
+  Google Analytics / GA4    <span class="ph">none</span>
+  Google Tag Manager        <span class="ph">none</span>
+  Meta pixel                <span class="ph">none</span>
+  Conversion tracking       <span class="ph">none</span>
+    </div>
     <div class="flag">
-      <div class="lab">Read from your live site, 3 September 2026</div>
-      <div class="code">Services you offer          <span class="ok">12</span>
-Pages built for them        <span class="ph">1</span>
-Pages on the whole site     <span class="ph">5</span>  <span class="c">home, about, services, case studies, contact</span></div>
-      <p><b>Electrical installation. Maintenance. Lighting design. Smart home. EV charging. Fire alarm
-      systems. Access control. Security. CCTV. HVAC. Thermal image surveying. Inspection and
-      testing.</b></p>
-      <p><b>Those are not variations on one job.</b> They are twelve different buyers with twelve
-      different problems, and several of them are searched by name by people with budgets &mdash; a
-      facilities manager looking for fire alarm servicing, a landlord who needs EICR inspection and
-      testing, a business quoting access control.</p>
-      <p><b>A bullet in a list cannot rank for any of them.</b> A page can. <b>This is the single
-      biggest gap on your site and the one with the clearest return</b>, because the work is already
-      yours &mdash; you just are not findable for it.</p>
-      <p><b>EV charging and thermal imaging are the two we would build first.</b> Both are growing, both
-      are searched explicitly, and most electricians in North Wales offer neither.</p>
+      <div class="lab">This is a one-month window and it is open now</div>
+      <p><b>A new lead source is only worth what you can prove about it.</b> In four weeks you will be asking whether
+      it paid, and the honest answer will be &ldquo;it felt busy&rdquo;. At five to twenty thousand pounds a job,
+      that is an expensive thing to guess about.</p>
+      <p><b>Tracking installed this week captures the whole test.</b> Installed in a month, it captures nothing that
+      has already happened and you start the clock again.</p>
+      <p><b>And the site itself cannot take an enquiry.</b> Anyone who finds you, reads the page and decides to act
+      has to go and find a number elsewhere. Some will. Not all.</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section>
-    <div class="h">Finding 2 &mdash; Nothing Is Measured</div>
-    <div class="flag">
-      <div class="lab">Searched the full served page source</div>
-      <div class="code">Google Analytics     <span class="ph">not present</span>
-Google Tag Manager   <span class="ph">not present</span>
-Google Ads tag       <span class="ph">not present</span>
-Meta pixel           <span class="ph">not present</span>
-Call tracking        <span class="ph">not present</span></div>
-      <p><b>Nothing at all.</b> No way to know how many people reach the site, which services they read
-      about, or how many of your calls came from it.</p>
-      <p><b>You told our team you are busy but open to more work.</b> That is the position where
-      measurement matters most &mdash; because the question is not &ldquo;how do we get more
-      enquiries&rdquo;, it is <b>&ldquo;which enquiries are worth taking?&rdquo;</b> and you cannot
-      answer that without counting.</p>
-      <p><b>Analytics is free and only records from the day it goes on.</b> Every week without it is a
-      week of history that cannot be recovered.</p>
+<section>
+  <div class="wrap">
+    <div class="h">Finding 2 &mdash; Three Business Lines, One Of Them Silent</div>
+    <div class="code">
+  WHAT YOU RUN OR WANT TO RUN
+
+  Electrical      <span class="ok">live</span>       commercial + industrial + domestic
+                             10-15 enquiries/week from the new system
+  Solar           <span class="ok">page exists</span>  <span class="ph">target: 2 clients a week</span>
+                             <span class="ph">no form, no number, no way to enquire</span>
+  Air conditioning <span class="ph">planned</span>     running early next year
+                             <span class="ph">nothing on the site at all</span>
     </div>
-  </section>
-
-  <section>
-    <div class="h">Finding 3 &mdash; The Template Is Still Showing</div>
     <div class="warn">
-      <div class="lab">Default section labels visible in your live page</div>
-      <div class="code">"Banner"          <span class="ph">appears 15 times</span>
-"Introduction"    <span class="ph">visible</span>
-"What We Do"      <span class="ph">visible</span>
-"Our Partners"    <span class="ph">visible</span>
-"Our Impact"      <span class="ph">visible</span>
-"Our Programs"    <span class="ph">visible</span>
-"Our Team"        <span class="ph">visible</span></div>
-      <p><b>Those are the default section names that come with the website template</b>, not headings
-      anybody wrote for you. &ldquo;Our Programs&rdquo; and &ldquo;Our Impact&rdquo; are charity and
-      non-profit language &mdash; they have nothing to do with electrical contracting.</p>
-      <p><b>Individually trivial. Together they say the same thing as Finding 2:</b> the site was built,
-      handed over, and nobody has been back through it since.</p>
-      <p><b>It is a tidy-up, not a rebuild.</b> But a facilities manager checking you out before putting
-      you on an approved list will notice.</p>
+      <div class="lab">Solar and electrical are not the same buyer and will not come from the same funnel</div>
+      <p><b>Your electrical enquiries come from people who already know they need an electrician.</b> A solar buyer is
+      earlier &mdash; they are weighing a purchase, comparing payback, and reading before they call. That is a
+      different page, a different message and a different measurement.</p>
+      <p><b>You have a /solar page already, which is further ahead than most.</b> What it does not have is a way to
+      act on it. Two solar clients a week is a real target, and it needs its own capture and its own tracking or you
+      will not know whether it is working.</p>
+      <p><b>Air conditioning is the same shape again</b> and it is worth building once, properly, so the third line
+      does not repeat the first two.</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section>
-    <div class="h">Finding 4 &mdash; No Proof Anywhere On The Site</div>
+<section>
+  <div class="wrap">
+    <div class="h">Finding 3 &mdash; Four Competitors, Four Sets Of Structured Data, And Yours Is The Empty One</div>
+    <div class="code">
+  STRUCTURED DATA (schema)         META DESCRIPTION
+  Thorn Electrical      <span class="ok">yes</span>              <span class="ok">yes</span>
+  CAM Electrical        <span class="ok">yes</span>              <span class="ok">yes</span>
+  Energy Electrical     <span class="ok">yes</span>              <span class="ok">yes</span>
+  ST Electrics          <span class="ok">yes</span>              <span class="ok">yes</span>
+  <span class="ph">AC Electrical (you)   none             none</span>
+
+  YOUR TITLE, 102 CHARACTERS
+  "AC Electrical - Northamptonshire's best local electrician |
+   Commercial | Industrial..."
+  <span class="ph">Search results cut around 60. Everything after "local" disappears.</span>
+    </div>
     <div class="warn">
-      <div class="lab">The gap that costs you commercial work specifically</div>
-      <div class="code">Star rating published       <span class="ph">none</span>
-Review count                <span class="ph">none</span>
-Customer testimonials       <span class="ph">none</span>
-Accreditations shown        <span class="ph">none found</span>
-Named clients               <span class="ph">none</span></div>
-      <p><b>You have a Case Studies page and no case studies visible on the homepage.</b> That is the
-      most persuasive material an electrical contractor can own, and it is one click away where most
-      visitors will not go.</p>
-      <p><b>It matters far more for commercial than residential.</b> A homeowner picks on reviews; a
-      facilities manager or main contractor is putting their own name on the decision, and they look for
-      evidence somebody else took the same risk first.</p>
-      <p><b>Accreditations are the other half of that.</b> NICEIC, NAPIT, ECA, TrustMark, a Safe
-      Contractor or CHAS registration &mdash; anything you hold should be on every page, because on
-      commercial work it is often a pre-qualification requirement rather than a nice-to-have.</p>
-      <p><b>You describe yourself as &ldquo;one of the leading electrical contractors in North
-      Wales&rdquo;.</b> That is a claim about yourself. A named project and a logo are proof from
-      somebody else, and they do a different job.</p>
+      <div class="lab">Both of these are an afternoon, and one of them carries a risk</div>
+      <p><b>No meta description means Google writes your search snippet itself,</b> picking a sentence from the page.
+      Every competitor controls theirs and you do not control yours.</p>
+      <p><b>&ldquo;Northamptonshire's best local electrician&rdquo; is a superiority claim with nothing cited behind
+      it</b>, and it is the first thing in your title. It is also the part that survives truncation while your
+      services do not. We would replace it with something specific &mdash; commercial and industrial, the towns you
+      cover, and what you actually do.</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section>
-    <div class="h">Finding 5 &mdash; Residential And Commercial Are Sold The Same Way</div>
+<section>
+  <div class="wrap">
+    <div class="h">Finding 4 &mdash; The Same Article, Published Three Times</div>
+    <div class="code">
+  /2024/05/25/the-bright-choice-...-in-your-home-2
+  /2024/05/25/the-bright-choice-...-in-your-home-2-2
+  /2024/05/25/the-bright-choice-...-in-your-home-2-2-2
+
+  Three URLs. One article. The "-2" suffix is what WordPress
+  adds when a post is saved again under a title it already has.
+    </div>
     <div class="warn">
-      <div class="lab">Where the money in your service list actually sits</div>
-      <p><b>Your own copy says you work &ldquo;from residential environments to large scale commercial
-      projects&rdquo;</b> &mdash; and the site then speaks to both in exactly the same voice, on the
-      same page.</p>
-      <p><b>They are not the same customer.</b> A homeowner wants a price and a date. A commercial
-      client wants accreditations, insurance, method statements, references, and to know you can hold a
-      programme. <b>Nothing on the site is written for the second one.</b></p>
-      <p><b>Commercial and industrial is also the work that keeps a team of your size busy through the
-      winter</b>, and it is where fire alarms, access control, CCTV and thermal imaging all live. <b>That
-      is the page we would build first</b>, and it is the one your competitors are least likely to
-      have.</p>
+      <div class="lab">Small, but it is the tell</div>
+      <p><b>Nobody has looked at the back of this site in a while.</b> Three copies of one LED article, plus an
+      author archive at /author/acelectr and a category page, all sitting in the link structure.</p>
+      <p><b>It is not costing you jobs on its own.</b> It is worth clearing because duplicates compete with each
+      other, and because it suggests the site has been left rather than run.</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section>
-    <div class="h">What Is Genuinely Good</div>
+<section>
+  <div class="wrap">
+    <div class="h">What Is Already Working</div>
+    <div class="code">
+  <span class="ok">997 words</span>                  ahead of Energy Electrical and ST Electrics
+  <span class="ok">8 H2 subheadings</span>           joint most of the five firms measured
+  <span class="ok">Canonical tag</span>              present and correct
+  <span class="ok">Commercial + industrial</span>    stated in the title, not buried
+  <span class="ok">A /solar page already</span>      before you have even started selling it
+  <span class="ok">Real service depth</span>         services, about, news, contact, solar
+  <span class="ok">2 full-time + 2 contractors</span> capacity to take more work now
+    </div>
     <div class="win">
-      <div class="lab">The foundations are sound</div>
-      <ul>
-        <li><b>Twelve services, named specifically.</b> Not &ldquo;electrical services&rdquo; &mdash; thermal image surveying, access control, EV charging. People search the job.</li>
-        <li><b>A working enquiry form and a tap-to-call landline</b>: 01492 549740.</li>
-        <li><b>Email on your own domain</b>, which a surprising number of contractors still get wrong.</li>
-        <li><b>A Case Studies section already exists</b> &mdash; the structure is there, it just needs bringing forward.</li>
-        <li><b>The site looks professional</b> and works properly on a phone. It is not a cheap build.</li>
-        <li><b>EV charging and smart home are on the list</b> &mdash; two genuinely growing markets that most local electricians have not moved into.</li>
-        <li><b>Ten years trading with a real team.</b> That is the hard part and it is already done.</li>
-      </ul>
-      <p><b>Nothing here needs rebuilding.</b> It needs pages for the services you already sell, proof
-      brought to the front, and something counting.</p>
+      <div class="lab">Why this is a D and not an F</div>
+      <p><b>The content and structure are competitive.</b> You are mid-field on words and joint-top on subheadings,
+      which is the hard part. What is missing is everything around the content.</p>
+      <p><b>Nothing here is a rebuild.</b> A form, a phone link, a description, schema and a tracking tag is one day
+      of work, and it is the day that makes the next month measurable.</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section>
-    <div class="h">The Scorecard</div>
-    <div class="grid">
-      <div class="row"><div><div class="rname">Analytics</div><div class="sc">Nothing installed. No baseline at all.</div></div><div class="badge gF">F</div></div>
-      <div class="row"><div><div class="rname">Conversion tracking</div><div class="sc">Nothing counted, so nothing can be judged.</div></div><div class="badge gF">F</div></div>
-      <div class="row"><div><div class="rname">Call tracking</div><div class="sc">None, and the phone is the main channel.</div></div><div class="badge gF">F</div></div>
-      <div class="row"><div><div class="rname">Advertising</div><div class="sc">No Ads tag, no pixel. Nothing running.</div></div><div class="badge gF">F</div></div>
-      <div class="row"><div><div class="rname">Reviews and rating</div><div class="sc">No score, count or testimonial anywhere.</div></div><div class="badge gF">F</div></div>
-      <div class="row"><div><div class="rname">Service pages</div><div class="sc">Twelve services, one page between them.</div></div><div class="badge gD">D&minus;</div></div>
-      <div class="row"><div><div class="rname">Template text visible</div><div class="sc">"Our Programs", "Our Impact", "Banner" &times;15 on the live page.</div></div><div class="badge gD">D</div></div>
-      <div class="row"><div><div class="rname">Accreditations shown</div><div class="sc">None found. Often a pre-qualification requirement commercially.</div></div><div class="badge gD">D</div></div>
-      <div class="row"><div><div class="rname">Commercial positioning</div><div class="sc">Same voice and page as residential.</div></div><div class="badge gD">D</div></div>
-      <div class="row"><div><div class="rname">Town pages</div><div class="sc">North Wales stated; no page for any town.</div></div><div class="badge gD">D</div></div>
-      <div class="row"><div><div class="rname">Enquiry qualification</div><div class="sc">The form does not sort a rewire from a fire alarm contract.</div></div><div class="badge gC">C</div></div>
-      <div class="row"><div><div class="rname">Case studies</div><div class="sc">A section exists, but nothing surfaces on the homepage.</div></div><div class="badge gC">C</div></div>
-      <div class="row"><div><div class="rname">Contact routes</div><div class="sc">Tap-to-call landline and own-domain email, both working.</div></div><div class="badge gB">B</div></div>
-      <div class="row"><div><div class="rname">Service breadth</div><div class="sc">Twelve named services including EV, CCTV and thermal imaging.</div></div><div class="badge gB">B+</div></div>
-    </div>
-  </section>
-
-  <section>
-    <div class="h">The Opportunity</div>
-    <div class="opp">
-      <div class="ocard"><div class="lab">Services offered</div><div class="big">12</div><div class="small">pages built for them: one</div></div>
-      <div class="ocard"><div class="lab">Tracking tags</div><div class="big">0</div><div class="small">nothing is counted</div></div>
-      <div class="ocard"><div class="lab">Proof on the homepage</div><div class="big">0</div><div class="small">no rating, review or named client</div></div>
-    </div>
-    <p class="oppnote"><b>No revenue figure appears in this document.</b> You have not told us your
-    average job value or the split between residential, commercial and industrial, and we are not going
-    to invent them. <b>That split is the whole conversation</b> &mdash; you are busy already, so the
-    goal is not more enquiries but better ones, and we cannot say what &ldquo;better&rdquo; means
-    without knowing which work you actually want. <b>Bring it to the call.</b></p>
-  </section>
-
-  <section>
-    <div class="h">Projected Grade After Build</div>
-    <div class="arrow">
-      <div class="gradecard gc-C" style="flex:1"><div class="bigletter bl-C">C&minus;</div><div class="score100">48 / 100 today</div></div>
-      <div class="ar">&rarr;</div>
-      <div class="gradecard gc-B" style="flex:1"><div class="bigletter" style="color:#3fb950;text-shadow:0 0 40px rgba(63,185,80,.45)">A</div><div class="score100">91 / 100 projected</div></div>
-    </div>
-    <div class="gscale">
-      <div class="gtitle">Where you sit today, and where the fourteen rows above put you</div>
-      <div class="gtrack">
-        <div class="gmark now" style="left:48%"><div class="gm-lab">You today</div><div class="gm-val">C&minus; &middot; 48</div></div>
-        <div class="gdot now" style="left:48%"></div>
-        <div class="gdot proj" style="left:91%"></div>
-        <div class="gmark proj" style="left:91%"><div class="gm-val">A &middot; 91</div><div class="gm-lab">After the build</div></div>
-      </div>
-      <div class="gticks"><span>F</span><span>D</span><span>C</span><span>B</span><span>A</span><span>A+</span></div>
-    </div>
-    <p class="oppnote">Projected, not promised. <b>It is not a projection of enquiries, jobs or
-    revenue.</b></p>
-  </section>
-
-  <section>
-    <div class="h">Fix First &mdash; This Week, And Most Of It Is Free</div>
+<section>
+  <div class="wrap">
+    <div class="h">The Order We Would Do It In</div>
     <ul class="road">
-      <li><b>Install analytics</b> &mdash; free, and it starts counting the day it goes on</li>
-      <li><b>Remove the template text</b> &mdash; &ldquo;Our Programs&rdquo;, &ldquo;Our Impact&rdquo;, &ldquo;Banner&rdquo;</li>
-      <li><b>Put your accreditations on every page</b>, with the logos</li>
-      <li><b>Bring one case study onto the homepage</b>, named if the client allows it</li>
-      <li><b>Ask recent clients for Google reviews</b> and publish the rating</li>
+      <li><b>Form and click-to-call on every page, this week.</b> While the new lead system is running, not after.</li>
+      <li><b>GA4 and conversion tracking, same day.</b> So the next four weeks of that system produce an answer
+      rather than an impression.</li>
+      <li><b>Meta description and a shorter title</b> without the &ldquo;best&rdquo; claim.</li>
+      <li><b>Structured data</b> &mdash; name, address, phone, service area. All four competitors have it.</li>
+      <li><b>Build the solar page into its own funnel</b> with its own capture and its own tracking, because two
+      solar clients a week will not come from the electrical one.</li>
+      <li><b>Clear the duplicate posts,</b> then plan air conditioning as a fourth section rather than a fourth
+      afterthought.</li>
     </ul>
-    <div class="h" style="margin-top:24px">Build Next</div>
-    <ul class="road road2">
-      <li><b>A page each for EV charging and thermal imaging</b> &mdash; growing, searched by name, few local competitors</li>
-      <li><b>A commercial and industrial page</b> written for facilities managers, not homeowners</li>
-      <li><b>Pages for fire alarms, CCTV and access control</b> &mdash; each is its own buyer</li>
-      <li><b>A qualifying enquiry form</b>: property type, service, scale, timescale</li>
-      <li><b>Call tracking</b>, then advertising into a site that can be counted</li>
-    </ul>
-  </section>
+  </div>
+</section>
 
-  <div class="cta">
-    <h2>You are busy. So this is not about more enquiries.</h2>
-    <p>It is about being found for the twelve things you already do, by the customers worth doing them
-    for &mdash; and being able to see which ones actually came in.</p>
+<div class="cta">
+  <div class="wrap">
+    <h2>The lead system is live. The measurement window is open now, not next month.</h2>
+    <p>At five to twenty thousand a job, guessing whether it worked is the expensive option.</p>
   </div>
 </div>
 
 <footer>
-  Prepared by Andrei Givero &middot; AG1 Consulting &middot; 3 September 2026<br>
-  For Alun Edwards of AC Electrical (North Wales) Ltd, Llandudno Junction. All findings were read from
-  acelectrical-ltd.co.uk and its served page source on 3 September 2026 and reflect those pages on that
-  date only. <b>The findings that no analytics, advertising or call-tracking tags are present, and that
-  default template section labels appear in the page, are literal readings of that source; elements
-  added by script after the page loads, or present on pages we did not read, would not appear in that
-  check &mdash; please verify before drawing a conclusion.</b> <b>Absence of reviews, ratings,
-  accreditations or named clients means none was present in the pages we read &mdash; not that you do
-  not hold them.</b> <b>The accreditation bodies named are examples of schemes common in the trade and
-  are NOT a statement that you hold, need or should hold any of them.</b> Your service list, coverage
-  area, trading history and your description of yourselves as one of the leading electrical contractors
-  in North Wales are <b>your own published claims and have not been independently verified by us</b>.
-  Your current workload and openness to more work are <b>as reported to us by our team following their
-  call with you</b> and have not been confirmed with you directly. <b>Comments on how commercial clients
-  and facilities managers select contractors, and on the relative growth of EV charging and thermal
-  imaging, are general commercial observations rather than researched findings about your business or
-  your market.</b> Grades are our own assessment against a consistent framework and are not an
-  industry-standard measure. <b>No number of enquiries, jobs or revenue is promised or forecast anywhere
-  in this document.</b>
+  <div class="wrap">
+    Prepared by Andrei Givero &middot; AG1 Consulting &middot; 29 September 2026, for Matthew Cawte at AC Electrical
+    Contracting Ltd.
+    <b>Every figure was measured directly from ac-electrical.org.uk on 29 September 2026 and can be re-checked live in
+    front of you. The homepage was downloaded in full and searched for GA4, gtag, Google Tag Manager, Google Ads,
+    Meta pixel, form tags, tel: links and JSON-LD; none was present. Word counts exclude scripts, styles and markup.
+    Title text, heading counts and the duplicate post URLs are quoted verbatim from the served page and its link
+    structure. The www and non-www versions were both fetched and serve identical content.</b>
+    <b>&#9888; We have NOT seen your new lead system, its dashboard, your Google Business Profile, your call records
+    or your books. The 10-15 enquiries a week, the GBP5k-GBP20k average job value, the two full-time staff and two
+    contractors, the target of two solar clients a week and the air conditioning plan are all as reported to AG1 and
+    have not been independently verified. It is possible tracking exists somewhere we cannot see from outside &mdash;
+    if so, that is the first thing to check together.</b>
+    <b>&#9888; No ranking, enquiry, call, lead, client volume or revenue outcome is promised, forecast or guaranteed
+    anywhere in this document. Search visibility is determined by Google, not by AG1.</b>
+    Competitor figures are reproduced in the separate competitor document with their own measurement note. Product and
+    company names are used for identification only and belong to their respective owners.
+  </div>
 </footer>
 </body></html>
